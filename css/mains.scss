@@ -1,0 +1,659 @@
+
+// reset
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+html{
+    font-size: 1.6rem;
+}
+
+// 
+
+// header
+header{
+    
+.logops5{
+
+        position: relative ;
+        left: 17%;
+        
+    }
+    
+    background-image: url(../assets/desktop/controle.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    
+    .LZ{
+        visibility: hidden;
+    }
+    nav{
+
+        .menu{
+        visibility: hidden;
+               
+        }
+    }
+
+    .show{
+
+        visibility: visible;
+        opacity: 1;
+        transform: translateX(0);
+    
+    }
+    
+
+    .btn__menu{
+
+        border: none;
+        background-color: transparent;
+        padding: .8rem;
+        position: absolute;
+        right: 0;
+        top: 0%;
+        cursor: pointer;
+    }
+
+}
+// 
+
+// sub-header
+.controle{
+
+    .control{
+        width: 100%;
+        visibility: hidden;
+    }
+}
+// 
+
+// especificacoes produto
+.container{
+
+.display{
+
+    padding: 2.6rem 2rem;
+    display: grid;
+    flex-direction: column;
+    }
+
+    a{  
+        visibility: hidden;
+        border-radius: 1.3rem;
+        padding: .6rem 1rem;
+        text-decoration: none;
+        background-color: blue;
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 800;
+        font-size: 2.4rem; 
+    }
+   
+    h2{
+
+        text-align: center;
+        font-size: 3.2rem;
+        font-family: "Secular One";
+        font-weight: 400;
+        margin-bottom: 1.8rem;
+    }
+    
+    p{
+        text-align: center;
+        font-family: "roboto";
+        font-size: 1.6rem;
+        font-weight: 400;
+    }
+
+    .imagens{
+        
+        order: 2/3;
+        padding: 3.2rem;
+        text-align: center;  
+    }
+
+    .display__color{
+
+        padding: 2.6rem 2rem;
+        background-color: #1C1C1C;
+        
+        a{  
+            visibility: hidden;
+            border-radius: 1.3rem;
+            padding: .6rem 1rem;
+            text-decoration: none;
+            background-color: blue;
+            color: white;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 800;
+            font-size: 2.4rem;  
+        }
+       
+        h2{
+    
+            color: white;
+            text-align: center;
+            font-size: 3.2rem;
+            font-family: "Secular One";
+            font-weight: 400;
+            margin-bottom: 1.8rem;
+        }
+        
+        p{
+            color: white;
+            text-align: center;
+            font-family: "roboto";
+            font-size: 1.6rem;
+            font-weight: 400;
+        }
+    
+        .imagens{
+            
+            padding: 3.2rem;
+            text-align: center;
+            
+        }
+    
+    }
+
+}
+// 
+
+// especificacoes controle
+.controlsection{
+
+    padding: 2.6rem 2rem;
+    text-align: center;
+    background-image: url(../assets/desktop/Fundocontrolsection.png);
+
+    .ps1{
+        margin-top: 8rem;
+    }
+
+    
+h2{
+
+    color: white;
+    text-align: center;
+    font-size: 3.2rem;
+    font-family: "Secular One";
+    font-weight: 400;
+    margin-bottom: 4rem;
+    margin-top: 8rem;
+}
+
+h3{
+
+    color: white;
+    font-family: "Sedgwick Ave";
+    font-size: 6.0rem;
+    font-weight: 400;
+    text-align: center;
+    mask-border: 6px solid blue; 
+}
+}
+ 
+
+.controlsection2{
+
+    padding: 2rem 2rem;
+    background-color: #010404;
+
+    .ps1logo{
+        visibility:hidden ;
+    }
+
+    h2{
+
+        color: white;
+        text-align: center;
+        font-size: 3.2rem;
+        font-family: "Secular One";
+        font-weight: 400;
+        margin-bottom: 4rem;
+    }
+
+    p{
+
+        color: white;
+        text-align: center;
+        font-size: 1.6rem;
+        font-family: "roboto"; 
+        margin-bottom: 5rem;
+    }
+
+    .setas{
+
+    padding: 5rem 6rem;
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+        
+        
+        a{color: white;}
+    }
+
+    
+}
+//
+
+// Secao Vendas
+.sellsection{
+
+    background: linear-gradient(180deg, #010404 0%, #171FBF 100%);
+
+    h3{
+        visibility: hidden;
+    }
+
+    .sell{
+        width: 100%;
+    }
+
+    .titlemobile{
+
+    font-family: "Secular One";
+    font-size: 32px;        
+    font-weight: 400;
+    color: white;
+    text-align: center; }
+
+    .adereços{
+
+    padding: 5rem;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.blocovendas{
+
+    display: block;
+    flex-direction: column;
+    .miniaturas{
+
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        gap: 4rem;
+        padding: 5rem;
+    
+        li{
+            border: 1px solid white;
+            border-radius: .2rem;
+        }
+        }
+
+}
+   
+}
+
+.section3{
+
+    padding: 3rem;
+    height: 100%;
+    text-align: center;
+
+    .prices{
+        margin: 1rem .5rem 4rem;
+        padding: 1rem .5rem;
+        text-align: center;
+        border: 1px solid white;
+        border-radius: .3rem;
+    
+        h2{
+            color: white;
+            text-align: center;
+            font-size: 3.2rem;
+            font-family: "Secular One";
+            font-weight: 400;
+            margin-bottom: 1rem;}
+    
+            p{
+    
+                color: white;
+                text-align: center;
+                font-size: 2.4rem;
+                font-family: "roboto"; 
+                font-weight: 800;
+                margin-bottom: 2rem;
+            }
+    
+            span{
+                color:white;
+                font-family: "Roboto";
+                font-size: 1.6rem;
+                font-weight: 400;
+            }
+    
+            a{
+                
+                margin-top: 2rem;
+                color: white;
+                font-family: "Roboto";
+                font-size: 1.6rem;
+                font-weight: 600;
+    
+            }
+    }
+
+    .add{
+
+        padding: .1rem 2rem;
+        color: white;
+        text-decoration: none;
+        font-family: 'Open Sans';
+        font-weight: 800;
+        font-size: 2.4rem;
+        background: #3EBB12;
+        border: 1px solid #000000;
+        box-shadow: -2px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: .3rem;
+        
+}
+}
+// 
+
+
+
+@media(min-width: 800px){
+
+    // header
+    header{
+        
+        background-image: none;
+        background-color: #171FBF;
+
+        .LZ{
+            visibility: visible;
+        }
+
+        .logops5{
+
+            top: 39%;
+            left: 35%;
+            position: absolute;
+        }
+
+        .btn__menu{
+            visibility: hidden;
+            position: absolute;
+        }
+
+        nav{
+
+            gap: 10rem;
+            display: flex;
+            padding: 2.5rem;
+
+        .menu{
+            
+            padding: 0rem 2rem;
+            gap: 4rem;
+            justify-content: center;
+            display: flex;
+            visibility: visible;
+
+            .pesquisa{
+
+                right: 6rem;
+                position: absolute;
+                text-align: center;
+                font-family: "open sans", sans-serif;
+                font-size: 2.0rem;
+                font-weight: 800;
+                color: gray;
+                border-radius: .8rem;
+                border: none;
+                height: 3rem;
+                width: 35rem;
+            }
+
+            li{
+                list-style: none;
+
+            a{
+
+                text-decoration: none;
+                font-family: "open Sans", sans-serif;
+                color: white;
+                font-size: 2.4rem;
+            }
+            }
+        }
+        }    
+    }
+    // 
+
+    // sub-header
+    .controle{
+
+        .control{
+
+            visibility: visible;
+        }
+
+    }
+    // 
+
+    // especificacoes produto
+    .container{
+
+    .display{
+
+        padding: 2rem 2.5rem;
+        display: flex;
+        flex-direction: row-reverse;
+
+        .text{
+
+            align-self: center;
+
+            p{ 
+                font-size: 3.2rem;
+                text-align: left;
+                margin-bottom: 25%;
+                margin-top: 51%;
+                }
+           
+
+            a{
+                font-size: 2.4rem;
+                padding: .5rem 1rem;
+                visibility: visible;
+            }    
+            
+            .texto{
+            
+            font-size: 2.4rem;
+            margin-top: 68%;
+            margin-bottom: 25%;
+            }
+        }
+
+        .title{
+
+            font-size: 6.4rem;
+            margin-top: 14%;
+            margin-left: -42.9%;
+            position: absolute;
+            text-align: left;
+
+            }
+
+       
+    } 
+
+    .display__color{
+
+        padding: 2rem 2.5rem;
+        display: flex;
+        flex-direction: row;
+
+        .paragrafo{
+
+            align-self: center;
+
+            p{ 
+                font-size: 3.2rem;
+                text-align: right;
+                margin-bottom: 20%;
+                margin-top: 50%;
+                }
+           
+
+            .saiba{
+                position: absolute;
+                right: 2%;
+                padding: .5rem 1rem;
+                visibility: visible;
+            }    
+        }
+
+        .titulo{
+
+            font-size: 6.4rem;
+            margin-left: 56%;
+            position: absolute;
+            margin-top: 10%;
+
+            br{
+                text-align: right;
+            }
+
+           
+            }
+
+       
+    } 
+
+    }
+    // 
+
+    // especificacoes controle
+    .partecontrole{
+    
+        width: 100%;
+        display: flex;
+
+        .ps1{
+            position: absolute;
+            visibility: hidden;
+        }
+
+        .controlsection2{
+
+            width: 100%;
+            padding: 0rem 0rem;
+            text-align: center;
+
+            .ps1logo{
+
+                margin-top: 9rem;
+                margin-bottom: 10rem;
+                visibility: visible;
+            }
+
+           .borda{
+
+            padding: 2rem 2rem;
+            left: 31.5%;
+            position: relative;
+            font-size: 3.0rem;
+            text-align: center;
+            padding: 2rem 2rem;
+            border: 1px solid whitesmoke;
+            border-radius: .8rem;
+            height: 14rem;
+            width: 32rem;
+           }
+        }
+    }
+    // 
+
+    // secao vendas
+    .sellsection{
+
+        display:flex ;
+        padding: 2rem 1rem;
+
+        h3{
+           
+            position: absolute;
+            margin-top: -5rem;
+            visibility: visible;
+            font-family: "Secular One";
+            font-size: 6.4rem;        
+            font-weight: 400;
+            color: white;
+            text-align: left;
+        }
+
+        .titlemobile{
+            visibility: hidden;
+        }
+
+        .adereços{
+
+            padding: 5rem ; 
+            list-style: none;
+            display: flex;
+            justify-content: left;
+            gap: 1rem;
+        }
+
+        .blocovendas{
+
+            padding: 0 0rem;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            .miniaturas{
+
+                display: block;
+                justify-content: left;
+                gap: 4rem;
+            }
+            
+        }
+
+        .section3{
+
+            align-self: center;
+
+        .prices{
+
+                padding: 2rem;
+                font-size: 6.4rem;
+                width: 60rem;
+                margin-top: 2%;
+            }
+
+            .add{
+
+                padding: .5rem 1rem;
+                width: 25rem;
+                font-size: 2.4rem;
+                position: absolute;
+                right: 4%;
+                margin-top: 3%;
+            }
+        }
+        
+
+       
+    }
+    // 
+    
+}
+
